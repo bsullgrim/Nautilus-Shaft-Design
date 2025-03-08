@@ -37,16 +37,17 @@ The project calculates the following key parameters:
 ## Equations
 
 The script implements the following equations:
-* Torque at the propeller
-Tout = Pprop/w
 
-* Torque at the gear
-Tgear = Pgen/w
+Torque at the propeller
+* Tout = Pprop/w
 
-* Shear Force
-q(z) = R1z<x-L1>^-1 + R2z<x-(L1+L2+L3)>^-1 + Fz<x-(L1+L2+L3+L4)>^-1
-V(z) = R1z<x-L1>^0 + R2z<x-(L1+L2+L3)>^0 + Fz<x-(L1+L2+L3+L4)>^0
-M(z) = R1z<x-L1>^1 + R2z<x-(L1+L2+L3)>^1 + Fz<x-(L1+L2+L3+L4)>^1
+Torque at the gear
+* Tgear = Pgen/w
+
+Shear Force
+* q(z) = R1z<x-L1>^-1 + R2z<x-(L1+L2+L3)>^-1 + Fz<x-(L1+L2+L3+L4)>^-1
+* V(z) = R1z<x-L1>^0 + R2z<x-(L1+L2+L3)>^0 + Fz<x-(L1+L2+L3+L4)>^0
+* M(z) = R1z<x-L1>^1 + R2z<x-(L1+L2+L3)>^1 + Fz<x-(L1+L2+L3+L4)>^1
 
 ## MATLAB Code Overview
 
